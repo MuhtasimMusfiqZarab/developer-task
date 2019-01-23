@@ -1,11 +1,13 @@
+import "./ProductList.css";
 import React, { Component } from "react";
+import ProductCard from "./ProductCard";
 
 const ProductList = props => {
-  const products = props.products.map(({ description, id, urls }) => {
-    return <img key={id} src={urls.regular} alt={description} />;
+  const products = props.products.map(product => {
+    return <ProductCard key={product.id} product={product} />;
   });
 
-  return <div>{products}</div>;
+  return <div className="product-list">{products}</div>;
 };
 
 export default ProductList;
