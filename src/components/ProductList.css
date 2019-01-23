@@ -7,5 +7,5 @@
 
 .product-list img {
   width: 250px;
-  grid-row-end: span 2;
+  height: 150px;
 }
