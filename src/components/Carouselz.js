@@ -14,15 +14,12 @@ class Carouselz extends Component {
       <Carousel>
         <div>
           <img src={Caro1} />
-          {/* <p className="legend">Legend 1</p> */}
         </div>
         <div>
           <img src={Caro2} />
-          {/* <p className="legend">Legend 2</p> */}
         </div>
         <div>
           <img src={Caro3} />
-          {/* <p className="legend">Legend 3</p> */}
         </div>
       </Carousel>
     );
