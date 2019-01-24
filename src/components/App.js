@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import json from "../api/json";
 import NavBar from "./NavBar";
+import Carouselz from "./Carouselz";
 import SearchBar from "./SearchBar";
 import ProductList from "./ProductList";
 
@@ -20,6 +21,7 @@ class App extends Component {
     return (
       <div className="container" style={{ marginTop: "10px" }}>
         <NavBar />
+        <Carouselz />
         <SearchBar searchOnSubmit={this.onSearchSubmit} />
         <ProductList products={this.state.products} />
       </div>
