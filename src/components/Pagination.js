@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Pagination = () => {
   return (
@@ -8,8 +8,8 @@ const Pagination = () => {
           <li className="page-item">
             <a
               className="page-link"
-              href="#"
-              tabindex="-1"
+              href="/"
+              tabIndex="-1"
               aria-disabled="true"
               style={{ borderRadius: "100px", marginRight: "10px" }}
             >
@@ -20,7 +20,7 @@ const Pagination = () => {
           <li className="page-item">
             <a
               className="page-link"
-              href="#"
+              href="/"
               style={{ borderRadius: "100px", marginRight: "10px" }}
             >
               {`>>>`}

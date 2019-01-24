@@ -1,7 +1,6 @@
 import "./ProductList.css";
-import React, { Component } from "react";
+import React from "react";
 import ProductCard from "./ProductCard";
-import Pagination from "./Pagination";
 
 const ProductList = props => {
   const products = props.products.map(product => {

@@ -4,6 +4,8 @@ import json from "../api/json";
 import NavBar from "./NavBar";
 import Carouselz from "./Carouselz";
 import SearchBar from "./SearchBar";
+import OnCatagory from "./OnCatagory";
+import OnPrice from "./OnPrice";
 import ProductList from "./ProductList";
 import Pagination from "./Pagination";
 
@@ -31,7 +33,11 @@ class App extends Component {
       >
         <NavBar />
         <Carouselz />
-        <SearchBar searchOnSubmit={this.onSearchSubmit} />
+        <div className="row">
+          <SearchBar searchOnSubmit={this.onSearchSubmit} />
+          <OnCatagory />
+          <OnPrice />
+        </div>
         <ProductList products={this.state.products} />
         <div>{this.putPagination()}</div>
       </div>

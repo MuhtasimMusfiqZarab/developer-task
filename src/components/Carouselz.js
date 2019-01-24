@@ -13,13 +13,13 @@ class Carouselz extends Component {
     return (
       <Carousel>
         <div>
-          <img src={Caro1} />
+          <img src={Caro1} alt="Pic1" />
         </div>
         <div>
-          <img src={Caro2} />
+          <img src={Caro2} alt="Pic2" />
         </div>
         <div>
-          <img src={Caro3} />
+          <img src={Caro3} alt="Pic3" />
         </div>
       </Carousel>
     );
