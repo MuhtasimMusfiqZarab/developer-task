@@ -11,17 +11,19 @@ class Carouselz extends Component {
   state = {};
   render() {
     return (
-      <Carousel>
-        <div>
-          <img src={Caro1} alt="Pic1" />
-        </div>
-        <div>
-          <img src={Caro2} alt="Pic2" />
-        </div>
-        <div>
-          <img src={Caro3} alt="Pic3" />
-        </div>
-      </Carousel>
+      <div>
+        <Carousel>
+          <div>
+            <img src={Caro1} alt="Pic1" />
+          </div>
+          <div>
+            <img src={Caro2} alt="Pic2" />
+          </div>
+          <div>
+            <img src={Caro3} alt="Pic3" />
+          </div>
+        </Carousel>
+      </div>
     );
   }
 }
