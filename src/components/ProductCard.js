@@ -26,8 +26,19 @@ class ProductCard extends Component {
   render() {
     const { description, urls } = this.props.product;
     return (
-      <div>
-        <img ref={this.productRef} src={urls.regular} alt={description} />
+      <div className="card">
+        <img
+          className="card-img-top"
+          style={{ margin: "0 auto" }}
+          ref={this.productRef}
+          src={urls.regular}
+          alt={description}
+        />
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">Catagory: </li>
+          <li className="list-group-item">Name : {description}</li>
+          <li className="list-group-item">Price</li>
+        </ul>
       </div>
     );
   }

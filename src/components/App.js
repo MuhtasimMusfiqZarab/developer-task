@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import json from "../api/json";
+import NavBar from "./NavBar";
 import SearchBar from "./SearchBar";
 import ProductList from "./ProductList";
 
@@ -11,11 +13,13 @@ class App extends Component {
       params: { query: term }
     });
     this.setState({ products: response.data.results });
+    console.log(response.data.results);
   };
 
   render() {
     return (
-      <div className="ui container" style={{ marginTop: "10px" }}>
+      <div className="container" style={{ marginTop: "10px" }}>
+        <NavBar />
         <SearchBar searchOnSubmit={this.onSearchSubmit} />
         <ProductList products={this.state.products} />
       </div>

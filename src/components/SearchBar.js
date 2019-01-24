@@ -13,19 +13,21 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div className="ui segment">
-        <form onSubmit={this.onFormSubmit} className="ui form">
-          <div className="field">
-            <label htmlFor="SearchBar">Product</label>
-            <input
-              type="text"
-              name=""
-              id="SearchBar"
-              onChange={e => this.setState({ term: e.target.value })}
-              value={this.state.term}
-            />
-          </div>
-        </form>
+      <div className="row">
+        <div className="col-4">
+          <form action="" onSubmit={this.onFormSubmit}>
+            <div className="form-group">
+              <input
+                type="text"
+                type="text"
+                class="form-control"
+                id="SearchBar"
+                onChange={e => this.setState({ term: e.target.value })}
+                placeholder="Search by Name"
+              />
+            </div>
+          </form>
+        </div>
       </div>
     );
   }
