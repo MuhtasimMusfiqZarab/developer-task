@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/Team1.2a6fbd8e.png"
   },
   {
-    "revision": "a44c1fdd1ad7bacb5cd5",
+    "revision": "91f76a16e28882ddfd79",
     "url": "/developer-task/static/css/main.8512419b.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/react-bootstrap-carousel.2fe6d179.svg"
   },
   {
-    "revision": "bf32f5fe1f091cf0a2f5",
-    "url": "/developer-task/static/js/1.bf32f5fe.chunk.js"
+    "revision": "3b781fb3cc7a2fc49aae",
+    "url": "/developer-task/static/js/1.3b781fb3.chunk.js"
   },
   {
     "revision": "3f80bc0941d0ae1e0224",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/pic3.feb5be04.jpg"
   },
   {
-    "revision": "a44c1fdd1ad7bacb5cd5",
-    "url": "/developer-task/static/js/main.a44c1fdd.chunk.js"
+    "revision": "91f76a16e28882ddfd79",
+    "url": "/developer-task/static/js/main.91f76a16.chunk.js"
   },
   {
     "revision": "e1f3413bf5036045713341394f617225",
@@ -44,23 +44,23 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/prog.e25310f5.jpg"
   },
   {
-    "revision": "f7448c0408e7a78012a82def0fb9e2fe",
-    "url": "/developer-task/static/media/react-bootstrap-carousel.f7448c04.ttf"
+    "revision": "2182330384ebbad826821fdf8e84efe5",
+    "url": "/developer-task/static/media/react-bootstrap-carousel.21823303.eot"
   },
   {
     "revision": "c746c4882df00af3b0a7a3b1616bf295",
     "url": "/developer-task/static/media/react-bootstrap-carousel.c746c488.woff"
   },
   {
-    "revision": "2182330384ebbad826821fdf8e84efe5",
-    "url": "/developer-task/static/media/react-bootstrap-carousel.21823303.eot"
+    "revision": "f7448c0408e7a78012a82def0fb9e2fe",
+    "url": "/developer-task/static/media/react-bootstrap-carousel.f7448c04.ttf"
   },
   {
-    "revision": "bf32f5fe1f091cf0a2f5",
+    "revision": "3b781fb3cc7a2fc49aae",
     "url": "/developer-task/static/css/1.bd7a3c2d.chunk.css"
   },
   {
-    "revision": "5f4345c3bd5fa700d202e5588df9217a",
+    "revision": "68ca5a6498013b0838be3962866382ae",
     "url": "/developer-task/index.html"
   }
 ];

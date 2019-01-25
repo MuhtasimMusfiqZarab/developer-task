@@ -1,10 +1,10 @@
 {
   "main.css": "/developer-task/static/css/main.8512419b.chunk.css",
-  "main.js": "/developer-task/static/js/main.a44c1fdd.chunk.js",
-  "main.js.map": "/developer-task/static/js/main.a44c1fdd.chunk.js.map",
+  "main.js": "/developer-task/static/js/main.91f76a16.chunk.js",
+  "main.js.map": "/developer-task/static/js/main.91f76a16.chunk.js.map",
   "static/css/1.bd7a3c2d.chunk.css": "/developer-task/static/css/1.bd7a3c2d.chunk.css",
-  "static/js/1.bf32f5fe.chunk.js": "/developer-task/static/js/1.bf32f5fe.chunk.js",
-  "static/js/1.bf32f5fe.chunk.js.map": "/developer-task/static/js/1.bf32f5fe.chunk.js.map",
+  "static/js/1.3b781fb3.chunk.js": "/developer-task/static/js/1.3b781fb3.chunk.js",
+  "static/js/1.3b781fb3.chunk.js.map": "/developer-task/static/js/1.3b781fb3.chunk.js.map",
   "runtime~main.js": "/developer-task/static/js/runtime~main.3f80bc09.js",
   "runtime~main.js.map": "/developer-task/static/js/runtime~main.3f80bc09.js.map",
   "static/media/pic1.jpg": "/developer-task/static/media/pic1.9c4d880d.jpg",
@@ -17,6 +17,6 @@
   "static/css/main.8512419b.chunk.css.map": "/developer-task/static/css/main.8512419b.chunk.css.map",
   "static/css/1.bd7a3c2d.chunk.css.map": "/developer-task/static/css/1.bd7a3c2d.chunk.css.map",
   "index.html": "/developer-task/index.html",
-  "precache-manifest.3188bf9e37bd1ee05e9fa5f92851d37b.js": "/developer-task/precache-manifest.3188bf9e37bd1ee05e9fa5f92851d37b.js",
+  "precache-manifest.39dadb6fcd96e83867d00d3842f308da.js": "/developer-task/precache-manifest.39dadb6fcd96e83867d00d3842f308da.js",
   "service-worker.js": "/developer-task/service-worker.js"
 }
