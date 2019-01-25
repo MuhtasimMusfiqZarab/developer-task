@@ -24,7 +24,7 @@ class ProductCard extends Component {
 
   // May add style to the JSX div ( style={{ gridRowEnd: `span ${this.state.spans}` }})
   render() {
-    const { description, urls } = this.props.product;
+    const { description, urls, slug } = this.props.product;
     return (
       <div className="card">
         <img
@@ -35,9 +35,9 @@ class ProductCard extends Component {
           alt={description}
         />
         <ul className="list-group list-group-flush">
-          <li className="list-group-item">Catagory: </li>
-          <li className="list-group-item">Name : {description}</li>
-          <li className="list-group-item">Price</li>
+          <li className="list-group-item">Name: {description} </li>
+          <li className="list-group-item">Description: {slug} </li>
+          <li className="list-group-item">Price: Nill</li>
         </ul>
       </div>
     );
