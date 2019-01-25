@@ -1,7 +1,7 @@
 {
   "main.css": "/developer-task/static/css/main.8512419b.chunk.css",
-  "main.js": "/developer-task/static/js/main.44e3c80a.chunk.js",
-  "main.js.map": "/developer-task/static/js/main.44e3c80a.chunk.js.map",
+  "main.js": "/developer-task/static/js/main.66c74264.chunk.js",
+  "main.js.map": "/developer-task/static/js/main.66c74264.chunk.js.map",
   "static/css/1.bd7a3c2d.chunk.css": "/developer-task/static/css/1.bd7a3c2d.chunk.css",
   "static/js/1.3b781fb3.chunk.js": "/developer-task/static/js/1.3b781fb3.chunk.js",
   "static/js/1.3b781fb3.chunk.js.map": "/developer-task/static/js/1.3b781fb3.chunk.js.map",
@@ -14,9 +14,9 @@
   "static/media/prog.jpg": "/developer-task/static/media/prog.e25310f5.jpg",
   "static/media/react-bootstrap-carousel.css": "/developer-task/static/media/react-bootstrap-carousel.2fe6d179.svg",
   "static/media/pic2.jpg": "/developer-task/static/media/pic2.7b6a8d7f.jpg",
-  "static/css/main.8512419b.chunk.css.map": "/developer-task/static/css/main.8512419b.chunk.css.map",
   "static/css/1.bd7a3c2d.chunk.css.map": "/developer-task/static/css/1.bd7a3c2d.chunk.css.map",
+  "static/css/main.8512419b.chunk.css.map": "/developer-task/static/css/main.8512419b.chunk.css.map",
   "index.html": "/developer-task/index.html",
-  "precache-manifest.21612aa39a6a9455efbf32527c081e72.js": "/developer-task/precache-manifest.21612aa39a6a9455efbf32527c081e72.js",
+  "precache-manifest.f1bf45519eaaafbeae823d1099e20d47.js": "/developer-task/precache-manifest.f1bf45519eaaafbeae823d1099e20d47.js",
   "service-worker.js": "/developer-task/service-worker.js"
 }

@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/Team1.2a6fbd8e.png"
   },
   {
-    "revision": "44e3c80aef556cba0ebb",
+    "revision": "66c742647023e5da0746",
     "url": "/developer-task/static/css/main.8512419b.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/pic3.feb5be04.jpg"
   },
   {
-    "revision": "44e3c80aef556cba0ebb",
-    "url": "/developer-task/static/js/main.44e3c80a.chunk.js"
+    "revision": "66c742647023e5da0746",
+    "url": "/developer-task/static/js/main.66c74264.chunk.js"
   },
   {
     "revision": "e1f3413bf5036045713341394f617225",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/prog.e25310f5.jpg"
   },
   {
+    "revision": "f7448c0408e7a78012a82def0fb9e2fe",
+    "url": "/developer-task/static/media/react-bootstrap-carousel.f7448c04.ttf"
+  },
+  {
     "revision": "2182330384ebbad826821fdf8e84efe5",
     "url": "/developer-task/static/media/react-bootstrap-carousel.21823303.eot"
   },
@@ -52,15 +56,11 @@ self.__precacheManifest = [
     "url": "/developer-task/static/media/react-bootstrap-carousel.c746c488.woff"
   },
   {
-    "revision": "f7448c0408e7a78012a82def0fb9e2fe",
-    "url": "/developer-task/static/media/react-bootstrap-carousel.f7448c04.ttf"
-  },
-  {
     "revision": "3b781fb3cc7a2fc49aae",
     "url": "/developer-task/static/css/1.bd7a3c2d.chunk.css"
   },
   {
-    "revision": "e3a825cfbd15bb804ab0a9af07789bcf",
+    "revision": "4581d99edc3ed45e374894df360147fa",
     "url": "/developer-task/index.html"
   }
 ];
