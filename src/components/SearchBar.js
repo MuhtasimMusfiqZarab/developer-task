@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 
+import Carouselz from "./Carouselz";
+import OnCatagory from "./OnCatagory";
+import OnPrice from "./OnPrice";
+
 class SearchBar extends Component {
   state = { term: "" };
 
@@ -13,18 +17,25 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div className="col-4">
-        <form action="" onSubmit={this.onFormSubmit}>
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              id="SearchBar"
-              onChange={e => this.setState({ term: e.target.value })}
-              placeholder="Search by Name"
-            />
+      <div>
+        <Carouselz />
+        <div className="row">
+          <div className="col-4">
+            <form action="" onSubmit={this.onFormSubmit}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="SearchBar"
+                  onChange={e => this.setState({ term: e.target.value })}
+                  placeholder="Search by Name"
+                />
+              </div>
+            </form>
           </div>
-        </form>
+          <OnCatagory />
+          <OnPrice />
+        </div>
       </div>
     );
   }

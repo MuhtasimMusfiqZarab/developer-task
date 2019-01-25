@@ -13,9 +13,9 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/team" className="nav-link">
+              <a href="/team" className="nav-link">
                 <i className="fas fa-users">Team</i>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

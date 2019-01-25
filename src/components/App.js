@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import json from "../api/json";
 import NavBar from "./NavBar";
-import Carouselz from "./Carouselz";
 import SearchBar from "./SearchBar";
 import OnCatagory from "./OnCatagory";
 import OnPrice from "./OnPrice";
@@ -12,7 +11,7 @@ import Pagination from "./Pagination";
 import Team from "./Team";
 
 class App extends Component {
-  state = { products: [] };
+  state = { products: [], nil: [] };
 
   putPagination = () => {
     if (this.state.products.length > 0) {
@@ -36,9 +35,16 @@ class App extends Component {
         >
           <NavBar />
           <Switch>
-            <Route exact path="/" component={Carouselz} />
+            <Route
+              exact
+              path="/"
+              render={() => <SearchBar searchOnSubmit={this.onSearchSubmit} />}
+            />
+
             <Route exact path="/team" component={Team} />
           </Switch>
+          <ProductList products={this.state.products} />
+          <div>{this.putPagination()}</div>
         </div>
       </Router>
     );
@@ -64,4 +70,5 @@ export default App;
     <div>{this.putPagination()}</div>
   </div>
 </Router> */
+  //<Route exact path="/" render= {()=><SearchBar searchOnSubmit={this.onSearchSubmit} />}/>
 }
