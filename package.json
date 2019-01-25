@@ -2,9 +2,11 @@
   "name": "developer-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MuhtasimMusfiqZarab.github.io/developer-task",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.2.1",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-bootstrap-carousel": "^3.4.1",
@@ -14,6 +16,7 @@
     "react-scripts": "2.1.3"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
